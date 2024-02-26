@@ -19,7 +19,7 @@ of this development journey, I might be wrong, but I figured out that embedding 
 blocks or layout for all devices. So, the more I dug deeper into it, the more confident I became in writing and executing this code. 
 Eventually, I started writing complete codes for the whole page while continuously ensuring and defining the responsiveness across various devices throughout the development.
 
-📱 Finally, after multiple iterations, trial runs, and dedicated hours of effort, I ultimately equipped myself with these tools with proficiency while making sure each page 
+Finally, after multiple iterations, trial runs, and dedicated hours of effort, I ultimately equipped myself with these tools with proficiency while making sure each page 
 of this portfolio is responsive across any devices. This project not only boosted my confidence but also made me feel 
 fulfilled as an individual equipped with the necessary tools, enabling me to build analytic apps with ease of navigation and responsiveness.
 
@@ -28,7 +28,7 @@ I initially used the predefined layout provided by Google Site, meaning that I u
 So, when I initially started embedding these HTML codes in the first page of the portfolio, I encountered challenges with the predefined blocks preventing the 
 responsiveness across many devices. However, it was my curiosity that led me to figure this out.
 
-🔍 So, for a better user experience, I started writing and executing codes for a whole page instead of relying on predefined layout blocks, and then embedded codes into each desired page. This resulted in a better outcome and provided me with long-lasting experience.
+So, for a better user experience, I started writing and executing codes for a whole page instead of relying on predefined layout blocks, and then embedded codes into each desired page. This resulted in a better outcome and provided me with long-lasting experience.
 
 
 ### Final Outcome : 
