@@ -2,7 +2,7 @@
 
 ### 🌟 Background:
 The objective of this project was not only to reimagine and renovate my portfolio but also to provide myself with an opportunity to write, execute, and run HTML codes 
-along with utilizing CSS in a more traditional way to enhance my proficiency in them. I simply loved exploring and learning about it all, and it was a fun project.
+along with utilizing CSS in a more traditional way to enhance my proficiency in them. I simply loved exploring and learning about it all, and it was a fun and adventurous project.
 
 📁 I've added HTML files above for your kind review, and you can use them if interested.
 
