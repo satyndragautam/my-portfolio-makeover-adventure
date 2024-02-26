@@ -7,11 +7,23 @@ The objective of this project was not only to reimagine and renovate my portfoli
 
 Finally, after multiple iterations, trial runs, and dedicated hours of effort, I finally equipped myself with these tools with proficiency while making sure each page of this portfolio is responsive across any devices. This project not only boosted my confidence but also made me feel fulfilled as an individual equipped with the necessary tools, enabling me to build websites/apps with ease of navigation and responsiveness.
 
-#### Skill Enhancement: 
+##### 💡 Skill Enhancement : 
 * Proficiency in utilizing HTML, BOOTSTRAP, AND CSS
 * Built more knowledge and accelerated my confidence into building responsive webs and analytic apps with a better responsiveness across any devices.
 
-### Tools Used: 
+
+### Challenge Faced : 
+I initially used the predefined layout provided by Google Site, meaning that I used the existing base layout/foundation on which my portfolio was originally built. 
+So, when I initially started embedding these HTML codes in the **first page** of portfolio, I encountered challenges with the predefined blocks preventing the responsiveness across any devices. However, It was my curiosity that led me figure this out. 
+
+For a better user experience and responsiveness, I started writing and executing codes for a whole page instead of using predefined layout blocks and then embedded them into it. This resulted in a better outcome and a better experience for me. 
+This helped me build the foundation of code writing and more. 
+
+### Next Plans : 
+
+My next plan is to remove the predefined layout and embed a fresh and new page for the first page of this portfolio.
+
+### Tools Used : 
 * HTML
 * CSS
 * Photoshop
