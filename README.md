@@ -1,4 +1,4 @@
-# :🎨 My Portfolio Makeover Adventure
+# 🎨 My Portfolio Makeover Adventure
 
 ### Background : 
 
