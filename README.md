@@ -32,7 +32,7 @@ So, when I initially started embedding these HTML codes in the **first page** of
 So, for a better user experience and responsiveness, I started writing and executing codes for a whole page instead of using predefined layout blocks and then embedded codes into each desired page. This resulted in a better outcome and provided me with long-lasting experience. 
 
 
-# Final Outcome : 
+### Final Outcome : 
 From Drab to Fab : 
 
 [add pictures : old and new ]
