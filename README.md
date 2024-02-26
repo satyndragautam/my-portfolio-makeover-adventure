@@ -4,6 +4,8 @@
 
 The objective of this project was not only to reimagine and renovate my portfolio but also to provide myself with an opportunity to write, execute, and run HTML codes along with utilizing CSS in a more traditional way to enhance my proficiency in them.
 
+I've added html files above for your kind review and you can use them if interested.  
+
 ##### 💡 Skill Enhancement : 
 * Obtained proficiency in utilizing HTML, BOOTSTRAP, AND CSS more efficiently and effectively
 * Built more knowledge and gained insights into them along with accelerating my confidence into building responsive webs and analytic apps with a better responsiveness across any devices.
