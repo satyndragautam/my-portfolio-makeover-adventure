@@ -23,7 +23,7 @@ Finally, after multiple iterations, trial runs, and dedicated hours of effort, I
 of this portfolio is responsive across any devices. This project not only boosted my confidence but also made me feel 
 fulfilled as an individual equipped with the necessary tools, enabling me to build analytic apps with ease of navigation and responsiveness.
 
-### 🛠️ Challenge Faced:
+### 🛠️ Challenges Faced:
 I initially used the predefined layout provided by Google Site, meaning that I used the existing base layout/foundation on which my portfolio was originally built. 
 So, when I initially started embedding these HTML codes in the first page of the portfolio, I encountered challenges with the predefined blocks preventing the 
 responsiveness across many devices. However, it was my curiosity that led me to figure this out.
