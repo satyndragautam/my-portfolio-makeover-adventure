@@ -7,8 +7,8 @@ along with utilizing CSS in a more traditional way to enhance my proficiency in 
 📁 I've added HTML files above for your kind review, and you can use them if interested.
 
 ##### 💡 Skill Enhancement:
-Obtained proficiency in utilizing HTML, Bootstrap, and CSS more efficiently and effectively.
-Built more knowledge and gained insights into them along with accelerating my confidence in building responsive webs and analytic apps.
+* Obtained proficiency in utilizing HTML, Bootstrap, and CSS more efficiently and effectively.
+* Built more knowledge and gained insights into them along with accelerating my confidence in building responsive webs and analytic apps.
 
 ### 🚀 Portfolio Development:
 Since I’ve previously used HTML, Bootstrap, and CSS during the development of my first app using the Plotly Dash library in Python, it wasn’t much of a hassle. 
