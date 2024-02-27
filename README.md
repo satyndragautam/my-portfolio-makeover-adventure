@@ -31,22 +31,22 @@ responsiveness across many devices. However, it was my curiosity that led me to 
 
 So, for a better user experience, I started writing and executing codes for a whole page instead of relying on predefined layout blocks, and then embedded codes into each desired page. This resulted in a better outcome and provided me with long-lasting experience.
 
-<br><br><br>
+<br><br>
 ### Final Outcome : 
 From Drab to Fab : 
 
 [add pictures : old and new ]
 
-<br><br><br>
+<br><br>
 ##### Access the portfolio 
 [add links]
 
-<br><br><br>
+<br><br>
 ### Next Plans : 
 
 My next plan is to remove the predefined layout and embed a fresh and new page for the first page of this portfolio.
 
-<br><br><br>
+<br><br>
 ### Tools Used : 
 * HTML
 * CSS
