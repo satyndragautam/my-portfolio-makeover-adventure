@@ -5,7 +5,7 @@ The objective of this project was not only to reimagine and renovate my portfoli
 along with utilizing CSS in a more traditional way to enhance my proficiency in them. I simply loved exploring and learning about it all, and it was a fun and adventurous project.
 
 📁 I've added HTML files above for your kind review, and you can use them if interested.<br>
-📷 You can have a glimpse of how each iteration of graphic design helped me come with a finalized appealing look of the website. Please [access images](https://imgur.com/a/oVnPeqP) 🔗 if interested. 
+📷 You can have a glimpse of how each iteration of graphic design helped me come with a finalized appealing look of my portfolio. Feel free to [access images](https://imgur.com/a/oVnPeqP) 🔗 and have a look if interested. 
 
 ##### 💡 Skill Enhancement:
 * Obtained proficiency in utilizing HTML, Bootstrap, and CSS more efficiently and effectively.
