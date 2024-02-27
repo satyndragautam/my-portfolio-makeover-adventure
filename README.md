@@ -6,11 +6,11 @@ along with utilizing CSS in a more traditional way to enhance my proficiency in 
 
 📁 I've added HTML files above for your kind review, and you can use them if interested.<br>
 📷 You can have a glimpse of how each iteration of graphic design helped me come with a finalized appealing look of my portfolio. Feel free to [access images](https://imgur.com/a/oVnPeqP) 🔗 and have a look if interested. 
-
+<br><br>
 ##### 💡 Skill Enhancement:
 * Obtained proficiency in utilizing HTML, Bootstrap, and CSS more efficiently and effectively.
 * Built more knowledge and gained insights into them along with accelerating my confidence in building responsive webs and analytic apps.
-
+<br><br>
 ### 🚀 Portfolio Development:
 Since I’ve previously used HTML, Bootstrap, and CSS during the development of my first app using the Plotly Dash library in Python, it wasn’t much of a hassle. 
 However, learning about something new in its original form is what brings excitement to me, and it also helps me gain proficiency in it. So, in order to get 
@@ -23,7 +23,7 @@ Eventually, I started writing complete codes for the whole page while continuous
 Finally, after multiple iterations, trial runs, and dedicated hours of effort, I ultimately equipped myself with these tools with proficiency while making sure each page 
 of this portfolio is responsive across any devices. This project not only boosted my confidence but also made me feel 
 fulfilled as an individual equipped with the necessary tools, enabling me to build analytic apps with ease of navigation and responsiveness.
-
+<br><br>
 ### 🛠️ Challenges Faced:
 I initially used the predefined layout provided by Google Site, meaning that I used the existing base layout/foundation on which my portfolio was originally built. 
 So, when I initially started embedding these HTML codes in the first page of the portfolio, I encountered challenges with the predefined blocks preventing the 
