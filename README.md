@@ -58,3 +58,4 @@ My next plan is to remove the predefined layout and embed a fresh and new page f
 * [Imgur](https://imgur.com/)
 * [w3schools.com](https://www.w3schools.com/)
 * [ChatGPT](https://chat.openai.com/)
+* [Freepik](https://www.freepik.com/)
