@@ -33,7 +33,9 @@ So, for a better user experience, I started writing and executing codes for a wh
 
 <br><br>
 ### Final Outcome : 
-From Drab to Fab : 
+<br><br>
+
+![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/new_vs_old.png)
 
 [add pictures : old and new ]
 
