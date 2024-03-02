@@ -32,7 +32,7 @@ responsiveness across many devices. However, it was my curiosity that led me to 
 So, for a better user experience, I started writing and executing codes for a whole page instead of relying on predefined layout blocks, and then embedded codes into each desired page. This resulted in a better outcome and provided me with long-lasting experience.
 
 <br><br>
-### :Confetti: Final Outcome : 
+### 🎉 Final Outcome 🎉: 
 <br><br>
 
 ![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/new_vs_old.png)
