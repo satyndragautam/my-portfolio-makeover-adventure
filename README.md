@@ -40,7 +40,7 @@ So, for a better user experience, I started writing and executing codes for a wh
 <br>
 
 <br><br>
-##### Access the portfolio 
+### Access the portfolio 
 [@Satyndra Gautam](https://sites.google.com/view/gautamsatyndra/about-me)
 
 <br><br>
