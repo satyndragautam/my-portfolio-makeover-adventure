@@ -37,7 +37,7 @@ So, for a better user experience, I started writing and executing codes for a wh
 
 ![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/new_vs_old.png)
 
-[add pictures : old and new ]
+<br>
 
 <br><br>
 ##### Access the portfolio 
