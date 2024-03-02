@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Analytical Apps Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+        <style>
+            body {
+            font: 15px sans-serif;
+            color: #818181;
+            height: 100%;
+            width:100%;
+            position: relative;
+            }
+            
+
+            /* ____________________TOP SECTION_______________*/
+
+            .jumbotron {
+                background-color: #18315A;
+                color: #fff;
+                width:100%;
+                padding: 50px 25px 100px 25px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .gradient-jumbotron {
+                background: linear-gradient( to bottom left, #163a75, #2d5697, #95b6ff, #fcd5ed, #f5b2cc, #f34c70); /* -250deg,*/
+                /*background: linear-gradient(to top right, #EE4A60, #f8daf3, #f8d8f1); */
+                background-size: 180% 180%;
+                animation: gradient-animation 6s ease 3 forwards;
+            }
+            
+            @keyframes gradient-animation {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            
+
+            .jumbotron-middle__div {
+                background-color: none;
+                max-width: 1300px; 
+                margin: 0 auto; 
+                padding: 0px;
+                width:100%;
+                display: flex; 
+                justify-content:space-around;
+                align-items:center;
+                margin:0px; 
+            }
+
+            .jumbotron-col-left {
+                display: flex; 
+                justify-content:start; 
+                align-items:start; 
+                padding-bottom:50px;
+                background-color:none;
+                margin:0; 
+                width: 40.8%;
+                flex-wrap: wrap;
+            }
+
+            .jumbotron-left-img__div {
+                max-width: 38%;
+                width:100%;
+            }
+
+            .jumbotron-img__left {
+                opacity: 1; 
+                background-color: none; 
+                height: 190px; 
+                width:190px;
+            }
+
+            .col-left-big-title__div {
+                margin-top: 85px;
+            }
+
+            .jumbotron-col-left__title {
+                color:white; 
+                font-family: 'Lexend', sans-serif; 
+                font-weight:600; 
+                font-size: 45px; 
+                opacity: 0.95;
+            }
+
+            .jumbotron-left-col__hr {
+                opacity: 1; 
+                width:100%; 
+                height: 2px; 
+                background-color: #EE4A60; 
+                margin-top: 16px;
+            }
+
+            .jumbotron-left-col__small__texts {
+                padding: 10px 0px 0px 30px; 
+                color:white; 
+                font-size: 14.5px; 
+                font-family: 'Nunito', sans-serif; 
+                font-weight:500; 
+                opacity: 0.8;
+            }
+
+            .jumbotron-col-right {
+                background-color: none; 
+                width: 55%; 
+                display: flex; 
+                justify-content: end;
+            }
+
+            .jumbotron-col-right__img { 
+                width:100%; 
+                height: auto;
+                max-width: 70%; 
+            }
+
+            /* _______________________________________ BOTTOM SECTION CONTENTS _____________________*/
+
+
+            .container-fluid-parent-row {
+                /*background: url('https://i.imgur.com/d09x9Eb.png') no-repeat center center;*/
+                width:100%;
+                padding: 150px 25px 60px 25px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin: 0px;
+                background-color: none;
+            }
+
+
+            .parent-row_contents__top__section {
+                background-color: none; 
+                max-width: 1000px;
+                margin: 0 auto; 
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:start;
+                border-radius: 14px;
+                flex-wrap: wrap;
+                margin-bottom: 150px;
+                background-color: none;
+                padding: 0;
+            }
+
+
+            .parent-row_contents__div {
+                background-color: none; 
+                max-width: 1000px;
+                padding: 20px 30px 40px 35px;
+                margin: 0 auto; 
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:start;
+                flex-wrap: wrap;
+                transition: box-shadow 0.5s ease, transform 0.5s ease, background-color 0.3s ease; 
+                margin-bottom: 100px;
+                /* border: 0.5px solid rgba(238, 74, 96, 0.25); */
+                /* box-shadow: rgba(238, 74, 96, 0.3) 0px 29px 30px -30px; */
+            }
+
+            .parent-row_contents__div:hover {
+                box-shadow: rgba(238, 74, 96, 0.7) 0px 35px 30px -30px; 
+                transform: translateY(-15px); 
+                /*box-sizing: content-box;*/
+                border: 0.5px solid rgba(238, 74, 96, 0.5);
+            }
+
+            .container-fluid__col1 {
+                width:70%; 
+                padding: 20px 70px 20px 0px; 
+                background-color: none;
+            }
+
+            .container-fluid__col1_bigtexts {
+                color:#18315A; 
+                font-family: 'Lexend', sans-serif; 
+                font-weight:800; 
+                font-size: 30px; 
+                padding-bottom: 15px;
+            }
+
+            .container-fluid__col1_smalltexts {
+                font-family: 'Nunito', sans-serif; 
+                font-weight:400; 
+                font-size: 14.5px; 
+                color:#18315A; 
+                opacity:0.8; 
+                padding:0px;
+            }
+
+            .top-button-container {
+                width: 100%; 
+                display: flex; 
+                justify-content: start; 
+                align-items: center;
+                padding: 30px 0px 0px 30px;
+            }
+
+
+            .container-fluid-button__small_text {
+                color: white; 
+                font-family: 'Nunito', sans-serif; 
+                font-weight:500; 
+                font-size: 14.5px;
+                padding: 8.6px 25px; 
+                background-color: #EE4A60; 
+                border-radius: 5px;
+                max-width: 28%;
+                width: 100%;
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+
+            .container-fluid-button__small_text:hover {
+                color: #EE4A60;
+                background-color: #18315A;
+                font-weight: bold;
+            }
+
+            .container-fluid__col2 {
+                width:30%; 
+                padding: 50px 0px 20px 0px; 
+                background-color: none; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+            }
+
+            .container-fluid__col2_img {
+                max-width: 450px; 
+                height: auto;
+            }
+
+
+            /* ________________________________ BOTTOM CONTAINER - FLUID ____________________________ */ 
+
+            .colorful-parent-row {
+                /*background: url('https://i.imgur.com/VMcAkKR.png') no-repeat center center;*/
+                /*background-size: cover;*/
+                /*background: linear-gradient(to right, #18315A, #EE4A60);*/
+                width:100%;
+                padding: 200px 25px 200px 25px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background-color: #FDF6FC;
+                /*background-color: #fdf6fc;*/
+            }
+
+
+            .colorful-parent-row-bottom__div {
+                background: linear-gradient(56deg, rgba(25,56,107,1) 29%, rgba(238,74,96,1) 100%);
+                max-width: 1300px;
+                margin: 0 auto; 
+                padding: 0px 25px 40px 25px;
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:start;
+                border-radius: 14px;
+                flex-wrap: wrap;
+                /*box-shadow: rgba(238, 74, 96, 0.3) 0px 35px 30px -30px;*/
+                box-shadow: rgba(238, 74, 96, 0.3) 0px 2px 4px 0px, rgba(238, 74, 96, 0.5) 0px 2px 16px 0px;
+            }
+
+            .inner-col-1 {
+                max-width: 80%;
+                width:100%;
+                padding: 80px 40px 0px 40px;
+            }
+
+            .inner-col-2 {
+                max-width: 20%;
+                width:100%;
+                padding: 120px 0px 50px 20px;
+                background-color: none; 
+                display: flex; 
+                justify-content: start; 
+                align-items: center;
+            }
+
+            .inner-col-2-img {
+                max-width: 85%; 
+                width: 100%;
+                height: auto; 
+                opacity: 0.7;
+            }
+
+            .inner-col-3 {
+                /*box-sizing: border-box;*/
+                width:100%;
+                padding: 0px 30px 50px 40px;
+                margin-top: -30px;
+            }
+
+            .inner-col-4 {
+                max-width: 100%;
+                width:100%;
+                padding: 60px 10px 0px 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            .button-parent-container {
+                width: 45%; 
+                background-color: none; 
+                padding: 30px 10px; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+            }
+
+
+              /* Button container styles */
+            .button-container-1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%; 
+                margin-right: 30px;
+            }
+
+            .btn-text-color-1 {
+                max-width:90%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 0px; 
+                border-radius: 5px;
+                background-color: #EE4A60;
+                text-decoration: none;
+                font-family: 'Lexend', sans-serif; 
+                font-weight: 400; 
+                font-size: 15px; 
+                color:white;
+                transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+            }
+
+            .button-container-2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%; 
+                margin-left: 30px;
+            }
+
+            .btn-text-color-2 {
+                color: white;
+                max-width:90%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 0px; 
+                border-radius: 5px;
+                background-color: #18315A;
+                text-decoration: none;
+                font-family: 'Lexend', sans-serif; 
+                font-weight:400; 
+                font-size: 15px; 
+                transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+            }
+
+            .btn-text-color-1:hover {
+                color:#EE4A60;
+                text-decoration: none;
+                background-color: #F3F5FC;
+                border: 1px solid #EE4A60;
+                padding: 7px 0px; 
+            }
+
+            .btn-text-color-2:hover {
+                color:#18315A;
+                text-decoration: none;
+                background-color: #F3F5FC;
+                border: 1px solid #EE4A60;
+                padding: 7px 0px; 
+            }
+
+            .inner-col-5 {
+                /*box-sizing: border-box;*/
+                width:100%;
+                padding: 20px 30px 40px 40px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            /* ___________________________________FOOTER CONTENTS____________________________________ */
+
+
+            footer {
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                height:54rem;
+                background-color: #18315A; 
+                padding: 10px 0px; 
+                margin-top:0px;
+                justify-content: start;
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+            }
+
+            .footer__div {
+                background-color: none;
+                max-width: 1300px;
+                margin: 0 auto; 
+                padding: 0px 25px;
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:center;
+            }
+
+            .footer-col-width {
+                max-width: 50%;
+                width: 100%;
+            }
+
+
+            .footer-signature {
+                background-color: none; 
+                font-size:24px;  
+                font-family: 'Lexend', sans-serif; 
+                font-weight:700; 
+                padding-left:3px;
+            }
+
+
+            .footer-follow-me {
+                display:flex; 
+                justify-content: end; 
+                align-items:start; 
+                background-color:none; 
+                padding-right:0px;
+            }
+
+
+            .footer-follow-me img {
+                max-width: 95%;
+                width: 100%;
+                max-height: 95%;
+                height: 100%;
+            }
+
+            
+
+            /* ____________________MEDIA QUERIES FOR RESPONSIVENESS ACROSS MULTIPLE DEVICES___________________ */
+
+
+            @media only screen and (max-width: 767px) {
+                .jumbotron {
+                    height: 950px;
+                    padding-bottom: 170px;
+                    padding-top: 100px;
+                }
+                .jumbotron-middle__div {
+                    flex-direction: column; 
+                    align-items: center; 
+                    padding: 85px 0px;
+                    margin-top: 30px;
+                }
+
+                .jumbotron-middle__div img.jumbotron-img {
+                    margin-top:80px;
+                }
+
+                .jumbotron-col-left {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: none;
+                    width: 100%;
+                    margin-top: 50px;
+                }
+
+                .jumbotron-left-img__div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 100%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 60%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-col-left__title {
+                    margin-top: -20px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 20px;
+                    padding: 0px 20px 0px 20px;
+                    text-align: center;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    margin-top: 60px;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 95%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                /* START MEDIA QUERIES FOR CONTAINER FLUID ITEMS */
+
+                .container-fluid__col1 {
+                    width:100%; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: start;
+                    flex-direction: column;
+                    padding: 0px 27px;
+                }
+
+                .container-fluid__col1_bigtexts {
+                    padding:20px 0px;
+                }
+
+                .top-button-container {
+                    width: 100%; 
+                    display: flex; 
+                    justify-content: center; 
+                    align-items: center;
+                    padding: 0;
+                    margin: 0;
+                    padding-top: 60px;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 60%;
+                    width: 100%;
+                }
+
+                .container-fluid__col2 {
+                    width:100%; 
+                    padding: 70px 0px 50px 0px; 
+                    background-color: none; 
+                    display: flex; 
+                    justify-content: center; 
+                    align-items: center;
+                    object-fit: contain;
+                }
+
+                .container-fluid__col2_img {
+                    max-width: 350px; 
+                    height: auto;
+                    object-fit: contain;
+                }
+
+
+                /* START MEDIA QUERIES FOR BLOCK WITH GRADIENT COLOR BELOW */
+
+                .colorful-parent-row-bottom__div {
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 25px 10px;
+                    max-width: 100%;
+                    width: 100%;
+                    border-radius: 0px;
+                    flex-wrap: wrap;
+                    background: linear-gradient(207deg, rgba(25,56,107,1) 29%, rgba(238,74,96,1) 100%);
+                }
+
+                .inner-col-1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 50px 0px;
+                }
+
+                .inner-col-2 {
+                    max-width: 100%;
+                    width: 100%;
+                    padding: 40px 0px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .inner-col-2-img {
+                    max-width: 70%;
+                    width: 100%;
+                    height: auto;
+                }
+    
+                .button-parent-container{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+
+                .button-container-1 {
+                    width: 70%;
+                    margin:0;
+                    padding: 0;
+                    padding-bottom: 40px;
+                }
+
+                .button-container-2 {
+                    width: 70%; 
+                    margin:0;
+                    padding: 0;
+                }
+
+                .inner-col-5 {
+                    padding-bottom: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 100%;
+                }
+
+                /* MEDIA QUERIES FOR FOOTER ELEMENTS */
+
+                footer {
+                    height:70rem;
+                }
+
+                .footer-follow-me {
+                    margin-top: 73px;
+                }
+
+                .footer-follow-me img {
+                    max-width:95%;
+                    height: auto;
+                }
+
+                .parent-row_contents__div {
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 25px 0px;
+                    max-width: 100%;
+                    width: 100%;
+                    border-radius: 14px;
+                    flex-wrap: wrap;
+                }
+
+                .project-description__text {
+                    padding: 50px 30px; 
+                }
+            }
+
+
+            @media only screen and (max-width: 390px) {
+
+                .jumbotron-left-col__small__texts {
+                    text-align: center;
+                    padding: 0px 20px 0px 20px;
+                }
+
+                .jumbotron-col-left {
+                    margin-top: 0px;
+                }
+
+                .jumbotron {
+                    padding: 0px;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 70%;
+                    padding: 7px 10px;
+                }
+
+            }
+
+
+            @media screen and (min-width: 768px) and (max-width: 900px) {
+
+                .jumbotron {
+                    padding: 80px 0px 70px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .col-left-big-title__div {
+                    margin-top:58px;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 30px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 21px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .container-fluid__col2_img {
+                    max-width: 300px; 
+                    height: auto;
+                    margin-top: 60px;
+                    padding: 0px;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 39%;
+                }
+
+                .inner-col-1 {
+                    max-width: 70%;
+                    padding-right: 10px;
+                }
+
+                .inner-col-2 {
+                    padding-top: 50px 0px;
+                    max-width: 30%;
+                }
+
+                .inner-col-2-img {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 150px;
+                }
+
+                .button-parent-container{
+                    width: 100%;
+                }
+
+                .button-container-1 {
+                    max-width: 100%;
+                }
+
+                .button-container-2 {
+                    max-width: 100%; 
+                }
+
+            }
+
+
+            @media screen and (min-width: 901px) and (max-width: 950px) {
+                .jumbotron-col-left__title {
+                    margin-top: 13px;
+                }
+            }
+
+
+            @media only screen and (min-width: 1024px) and (max-width: 1265px) {
+                
+                .jumbotron {
+                    padding: 90px 0px 80px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .col-left-big-title__div {
+                    margin-top: 88px;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 40px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 30px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 120px;
+                }
+
+                .container-fluid__col2_img {
+                    max-width: 350px; 
+                    height: auto;
+                    margin-top: 40px;
+                }
+
+                .inner-col-1 {
+                    padding-right: 10px;
+                    max-width: 70%;
+                }
+
+                .inner-col-2 {
+                    padding-right: 30px;
+                    max-width: 30%;
+                }
+
+                .inner-col-2-img {
+                    max-width: 90%;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 100px;
+                }
+
+                .button-container-1 {
+                    width: 50%;
+                }
+
+                .button-container-2 {
+                    width: 50%; 
+                }
+
+            }
+
+
+            @media only screen and (min-width: 899px) and (max-width: 1023px) {
+
+                .jumbotron {
+                    padding: 90px 0px 80px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .col-left-big-title__div {
+                    margin-top: 70px;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 40px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 28px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .container-fluid__col2_img {
+                    max-width: 300px; 
+                    height: auto;
+                    margin-top: 50px;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 38%;
+                }
+
+                .inner-col-1 {
+                    padding-right: 10px;
+                    max-width: 70%;
+                }
+
+                .inner-col-2 {
+                    padding-right: 30px;
+                    max-width: 30%;
+                }
+
+                .inner-col-2-img {
+                    max-width: 90%;
+                    width: 100%;
+                    height: auto;
+                    margin-top: 100px;
+                }
+
+                .button-container-1 {
+                    width: 50%;
+                }
+
+                .button-container-2 {
+                    width: 50%; 
+                }
+            }
+
+            @media only screen and (min-width: 1180px)  and (max-width: 1249px){
+                .col-left-big-title__div {
+                    margin-top: 110px;
+                }
+
+                .container-fluid-parent-row {
+                    padding-bottom: 180px;
+                }
+            }
+
+            @media only screen and (width: 896px) {
+                .col-left-big-title__div {
+                    margin-top: 78px;
+                }
+            }
+
+            @media only screen and (width: 844px) {
+                .col-left-big-title__div {
+                    margin-top: 70px;
+                }
+            }
+
+            @media only screen and (width: 820px) {
+                .col-left-big-title__div {
+                    margin-top: 63px;
+                }
+
+                .container-fluid-parent-row {
+                    padding-bottom: 150px;
+                }
+            }
+
+
+            @media only screen and (min-width: 1250px) and (max-width: 1345px ) {
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 43.5%;
+                    width: 100%;
+                }
+            }
+
+
+            @media only screen and (max-width: 300px) {
+                .top-button-container{
+                    margin-top: 20px;
+                }
+
+                .container-fluid__col2_img {
+                    padding-bottom: 35px;
+                    max-width: 280px;
+                    height: auto;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 90%;
+                    padding: 7px 10px;
+                }
+
+                .container-fluid__col1_bigtexts {
+                    font-size: 25px;
+                }
+            }
+
+
+
+
+
+            @media only screen and (min-width: 650px) and (max-width: 950px) {
+
+                .jumbotron {
+                    padding: 80px 0px 70px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 30px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 25px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 120px;
+                }
+            }
+
+
+            @media only screen and (min-width: 540px) and (max-width: 600px) {
+                
+
+                .jumbotron-col-left {
+                    flex-direction: flex;
+                    max-width: 100%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 42%;
+                    width: 100%;
+                    height: auto;
+                }
+
+
+                .jumbotron-col-left__title {
+                    font-size: 40px;
+                }
+
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 20px;
+                    padding: 0;
+                    padding: 0px 20px 0px 20px;
+                    text-align: center;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 35%;
+                }
+
+                .inner-col-2-img {
+                    max-width: 50%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .button-container-1 {
+                    width: 50%;
+                    margin:0;
+                    padding: 0;
+                    padding-bottom: 40px;
+                }
+
+                .button-container-2 {
+                    width: 50%; 
+                    margin:0;
+                    padding: 0;
+                }
+
+            }
+
+
+            @media only screen and (min-width: 609px) and (max-width: 767px) {
+
+                .footer-follow-me {
+                    margin-top: -60px;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 60%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 20px;
+                    text-align: center;
+                    padding: 0px 20px 0px 20px;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 350px;
+                    width:100%;
+                    max-height: 350px;
+                    margin-top: -2rem;
+                }
+
+                .jumbotron-col-right{
+                    background-color: none;
+                    padding: 30px 0px;
+                    padding-bottom: 90px;
+                }
+
+                .top-button-container{
+                    margin-top: 30px;
+                }
+
+                .container-fluid__col2_img {
+                    padding-bottom: 35px;
+                }
+
+                .container-fluid-button__small_text {
+                    max-width: 30%;
+                }
+
+                .inner-col-2-img {
+                    max-width: 35%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .button-container-1 {
+                    width: 30%;
+                    margin:0;
+                    padding: 0;
+                    padding-bottom: 40px;
+                }
+
+                .button-container-2 {
+                    width: 30%; 
+                    margin:0;
+                    padding: 0;
+                }
+            }
+
+            @media only screen and (width: 768px) {
+                .container-fluid-button__small_text {
+                    max-width: 42%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="jumbotron" style="background-color: none; margin-bottom: 0px;">
+            <div class="jumbotron-middle__div">
+                <!-- Left Column -->
+                <div class="col-sm-4 jumbotron-col-left" >
+                    <div class="jumbotron-left-img__div">
+                        <img src="https://i.imgur.com/gvTCBcj.png" class="jumbotron-img__left">
+                        <!-- https://i.imgur.com/HDDqGGl.png -->
+                    </div>
+                    <div class="col-left-big-title__div" >
+                        <div class="jumbotron-col-left__title">
+                            Analytic Apps
+                        </div>
+                        <div class="jumbotron-left-col__hr">
+                        </div>
+                    </div>
+                    <div class="jumbotron-left-col__small__texts">
+                        Passionate about and Thriving with Analytic Apps
+                    </div>
+                </div>
+                <!-- Right column -->
+                <div class="col-sm-8 jumbotron-col-right">
+                    <img src="https://i.imgur.com/MwGsRPq.png" class="jumbotron-col-right__img">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- _________________________ START THE BOTTOM SECTION CONTENTS FROM HERE  _________________-->
+
+
+        <div class="container-fluid-parent-row ">
+
+            <div class="parent-row_contents__top__section">
+                <div style="display: flex; margin-top: 0px; width: 100%; justify-content: center; align-items: center;">
+                    <div style="width: 100%; height: 5px; background-color: none; background: linear-gradient(to right, #EE4A60, #f8daf3, #1e2f91); "></div>
+                </div>
+            </div>
+
+            <div class="parent-row_contents__div">
+                <div class="col-sm-8 container-fluid__col1">
+                    <div>
+                        <p class="container-fluid__col1_bigtexts">
+                            What are they?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="container-fluid__col1_smalltexts ">
+                            Analytic apps, also known as analytical applications and data apps, provide businesses with pre-packaged tools like self-service dashboards and 
+                            data visualizations to enhance operational performance. 
+                            These tools aid regular business users in any industries by offering data-driven insights for informed decision-making. 
+                            They're adaptable across various industries and systems, filling workflow gaps and aiding action with deep domain knowledge. 
+                            Whether created in-house or obtained from a third-party, analytical applications serve as specialized analytics platforms for businesses.
+                        </p>
+                    </div>
+                    <div class="top-button-container" style="margin-top: 25px;">
+                        <a href="https://sites.google.com/view/gautamsatyndra/analytic-apps/multi-page-app" target="_blank" class="container-fluid-button__small_text" style="text-decoration: none; color: white;">    
+                            <p style="margin:0; padding: 0;"> 
+                                View Example
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 container-fluid__col2">
+                    <img src="https://i.imgur.com/F7kAb7P.png" alt="data-apps-imgs" class="container-fluid__col2_img">
+                </div>
+            </div>
+            
+            <div class="parent-row_contents__div">
+                <div class="col-sm-8 container-fluid__col1">
+                    <div>
+                        <p class="container-fluid__col1_bigtexts">
+                            How do they work?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="container-fluid__col1_smalltexts ">
+                            Analytical apps work by providing accessible, ready-to-use business intelligence (BI) experiences tailored for diverse users, 
+                            featuring a user-friendly design with consistent layouts focused on key metrics. These apps facilitate self-service exploration 
+                            for uncovering insights, often incorporating intuitive wizards to guide users through analysis. 
+                            For instance, a hiring manager might utilize a custom analytical app displaying 
+                            data on interactions with recruitment firms, including recruitment numbers, locations, and retention rates. This targeted app 
+                            ensures users gain maximum value from available data for informed decision-making, rather than overwhelming them with numerous 
+                            reports and dashboards. In simple terms, it empowers users to experience with reportings in one place.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 container-fluid__col2">
+                    <img src="https://i.imgur.com/2LaTLSD.png" alt="data-apps-imgs" class="container-fluid__col2_img">
+                </div>
+            </div>
+
+            <div class="parent-row_contents__div">
+                <div class="col-sm-8 container-fluid__col1">
+                    <div>
+                        <p class="container-fluid__col1_bigtexts">
+                            Where do they fit well?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="container-fluid__col1_smalltexts ">
+                            Analytical applications find their place in diverse domains where data-driven insights are crucial. 
+                            These versatile tools are integral to business intelligence, aiding financial analysis, marketing 
+                            optimization, operations management, customer relationship management, human resources, healthcare 
+                            analytics, retail analytics, supply chain management, and others. Their adaptability spans 
+                            across industries and functions, empowering organizations to extract meaningful insights and make 
+                            informed decisions.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 container-fluid__col2">
+                    <img src="https://i.imgur.com/LifeuUZ.png" alt="data-apps-imgs" class="container-fluid__col2_img">
+                </div>
+            </div>
+
+            <div class="parent-row_contents__div">
+                <div class="col-sm-8 container-fluid__col1">
+                    <div>
+                        <p class="container-fluid__col1_bigtexts">
+                            why do we need them?
+                        </p>
+                    </div>
+                    <div>
+                        <p class="container-fluid__col1_smalltexts ">
+                            Customized analytic apps offer unique experiences because regular IT-led BI solutions may not fit well 
+                            with today's average business user. These apps focus on providing analytics tailored to individual needs, 
+                            ensuring more value from data, and can even be branded with your businesses. By bundling important BI 
+                            features into an easy-to-use software package, they make it easier for businesses to adopt BI, 
+                            speed up getting insights for making decisions, and quickly deliver effiecient value to customers. 
+                            Choosing the right app with all the required functionality boosts business operations and provides 
+                            cost effective solutions to the businesses. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 container-fluid__col2">
+                    <img src="https://i.imgur.com/abaAqmg.png" alt="data-apps-imgs" class="container-fluid__col2_img">
+                </div>
+            </div>
+
+            <div class="parent-row_contents__div">
+                <div class="col-sm-8 container-fluid__col1">
+                    <div>
+                        <p class="container-fluid__col1_bigtexts">
+                            Long Story Short
+                        </p>
+                    </div>
+                    <div>
+                        <p class="container-fluid__col1_smalltexts ">
+                            Analytical applications play a pivotal role in enhancing operational 
+                            performance for businesses across diverse industries. They offer user-friendly, ready-to-use 
+                            business intelligence experiences, empowering regular users to gain valuable insights and data-driven results to support informed decision-making. 
+                            Their adaptability makes them suitable and versatile for various domains, including financial analysis, marketing optimization, 
+                            operations management, and much more. The need for customized analytic apps arises from the limitations of traditional 
+                            IT-led BI solutions, as these apps focus on tailoring analytics to individual needs, ensuring optimal value from data, 
+                            and providing efficient solutions. Choosing the right app with the necessary functionality not only facilitates BI 
+                            experience but also accelerates insights delivery, contributing to effective and cost-efficient business operations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 container-fluid__col2">
+                    <img src="https://i.imgur.com/7yNOyOB.png" alt="data-apps-imgs" class="container-fluid__col2_img">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- _________________________Start motivation, dedication, and committment section to explore and learn about advanced data apps  _________________-->
+
+        <div class="colorful-parent-row ">
+            <div class="colorful-parent-row-bottom__div">
+                <div style="background-color: none;" class="inner-col-1">
+                    <p style="color:rgb(233, 212, 212); font-family: 'Lexend', sans-serif; font-weight:800; font-size: 30px; padding-bottom: 15px; margin: 0px;">
+                        Driven By Motivation, Dedication, and Commitment
+                    </p><br>
+                    <p style="color:#FDF6FC; font-family: 'Lexend', sans-serif; font-weight:300; font-size: 15px; padding-bottom: 0px; margin: 0px; opacity: 0.9;">
+                        As a self-motivated individual throughout my entire life, my motivation comes from a desire to continuously educate 
+                        and improve myself, personally and professionally, every day. I yearn for ways to expand my knowledge, challenge my 
+                        capabilities, and push boundaries within this process to make meaningful contributions in data analytics. 
+                        This benchmark acts as a driving force in everything I do and it helps me strive for continuous growth.
+
+                        <br><br>
+
+                        Transforming from creating concise reports or dashboards in BI tools/IT-led tools to building analytical apps 
+                        and self-service dashboards from scratch has been a challenging yet rewarding journey for me. I understand 
+                        expertise is valuable. So is a fresh perspective. Ever since I encountered building analytic apps, I've developed a deep passion for it. 
+                        I consistently make sure to stay focused, dedicated, and determined to explore various ways to learn more and refine this skill continually 
+                        because I am simply in love with it. With this in mind, my commitment to provide high-impact solutions is driven by staying updated 
+                        with latest tools and techs, learn from others and multiple sources, further ensuring to elevate my skillset and abilities to a new dimension for 
+                        creating analytical apps to support informed decision-making and meet stakeholder's expectations at every turn. 
+                        Overall, what truly excites me is starting my day with a clear sense of purpose and ending it with fulfillment.
+
+                    </p>
+                </div>
+                <div class="inner-col-2">
+                    <img src="https://i.imgur.com/UBYPGgw.png" alt="Mylove" class="inner-col-2-img" >
+                </div>
+
+                <div class="inner-col-4">
+                    <div class="button-parent-container" style="background-color: none;">
+                        <div class="button-container-1">
+                            <a href="https://github.com/satyndragautam" target="_blank" class="btn-text-color-1" style="text-decoration: none; " > Github </a>
+                        </div>
+                        <div class="button-container-2">
+                            <a href="https://sites.google.com/view/gautamsatyndra/analytic-apps" target="_blank" class="btn-text-color-2" style="text-decoration: none; " > Explore App </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inner-col-5">
+                    <div style="width: 70%; display: flex; justify-content: center; align-items: center;"> 
+                        <div style="width: 100%; border-bottom: 1px solid white;" class="col-sm-4">
+
+                        </div>
+                        <div style="width: 100%; border-bottom: 1px solid none; text-align:center;" class="col-sm-4">
+                            <span style="font-size: 200%; color: white;">&starf;</span>
+                            <span style="font-size: 200%; color: white;">&starf;</span>
+                            <span style="font-size: 200%; color: white;">&starf;</span>
+                            <span style="font-size: 200%; color: white;">&starf;</span>
+                            <span style="font-size: 200%; color: white;">&starf;</span>
+                        </div>
+                        <div style="width: 100%; border-bottom: 1px solid white;" class="col-sm-4">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- ________________________________________ Footer Section | Contents _______________________________________________ -->
+
+        <footer>
+            <div class="footer__div">
+                <div style="width: 100%; padding: 215px 0px 0px 0px;">
+                    <div style="border-bottom: 1px solid #EE4A60;">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__div">
+                <div style="width: 100%; padding: 45px 0px 0px 25px;">
+                    <div style="direction: rtl; font-family: 'Nunito', sans-serif; font-weight:400; font-size: 18.5px; color: white;">
+                        Follow me
+                    </div>
+                </div>
+            </div>
+            <div class="footer__div">
+                <div style="width: 100%; padding: 52px 0px 10px 0px;">
+                    <div class="col-sm-6 footer-signature">
+                        <span style="color: white; padding-left: 0px; background-color: none">
+                            Satyndra
+                        </span><br>
+                        <span style="color: #EE4A60; padding-left: 0px;">
+                            Gautam
+                        </span>
+                    </div>
+                    <div class="col-sm-6 footer-follow-me">
+                        <div style="padding: 0px 13px;">
+                            <a href="https://www.linkedin.com/in/satyndra-gautam-79315552/" target="_blank" >
+                                <img src="https://i.imgur.com/VI6YWzk.png" alt="LinkedIn" >
+                            </a>
+                        </div>
+                        <div style="padding: 0px 13px;">
+                            <a href="https://github.com/satyndragautam/" target="_blank" >
+                                <img src="https://i.imgur.com/t8R6xg2.png" alt="Github"  >
+                            </a>
+                        </div>
+                        <div style="padding: 0px 13px;">
+                            <a href="https://www.credly.com/users/satyndra-gautam/badges" target="_blank" >
+                                <img src="https://i.imgur.com/nMm7PIq.png" alt="Credly"  >
+                            </a>
+                        </div>
+                        <div style="padding: 0px 0px 0px 13px;">
+                            <a href="https://www.kaggle.com/satyndragautam/" target="_blank" >
+                                <img src="https://i.imgur.com/vDI4030.png" alt="Kaggle" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+
+    </body>
+</html>

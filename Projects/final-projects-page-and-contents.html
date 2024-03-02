@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projects Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+        <style>
+            body {
+            font: 15px sans-serif;
+            color: #818181;
+            height: 100%;
+            width:100%;
+            position: relative;
+            }
+            
+
+            /* ____________________TOP SECTION_______________*/
+
+            .jumbotron {
+                background-color: #18315A;
+                color: #fff;
+                width:100%;
+                padding: 50px 25px 100px 25px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .gradient-jumbotron {
+                background: linear-gradient( to bottom left, #163a75, #2d5697, #95b6ff, #fcd5ed, #f5b2cc, #f34c70); /* -250deg,*/
+                /*background: linear-gradient(to top right, #EE4A60, #f8daf3, #f8d8f1); */
+                background-size: 180% 180%;
+                animation: gradient-animation 6s ease 3 forwards;
+            }
+            
+            @keyframes gradient-animation {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            
+
+            .jumbotron-middle__div {
+                background-color: none;
+                max-width: 1300px; 
+                margin: 0 auto; 
+                padding: 0px;
+                width:100%;
+                display: flex; 
+                justify-content:space-around;
+                align-items:center;
+                margin:0px; 
+            }
+
+            .jumbotron-col-left {
+                display: flex; 
+                justify-content:start; 
+                align-items:start; 
+                padding-bottom:50px;
+                background-color:none;
+                margin:0; 
+                width: 40%; 
+                flex-wrap: wrap;
+            }
+
+            .jumbotron-left-img__div {
+                max-width: 38%;
+                width:100%;
+            }
+
+            .jumbotron-img__left {
+                opacity: 1; 
+                background-color: none; 
+                height: 190px; 
+                width:190px;
+            }
+
+            .col-left-big-title__div {
+                margin-top: 85px;
+            }
+
+            .jumbotron-col-left__title {
+                color:white; 
+                font-family: 'Lexend', sans-serif; 
+                font-weight:600; 
+                font-size: 45px; 
+                opacity: 0.95;
+            }
+
+            .jumbotron-left-col__hr {
+                opacity: 1; 
+                width:100%; 
+                height: 2px; 
+                background-color: #EE4A60; 
+                margin-top: 16px;
+            }
+
+            .jumbotron-left-col__small__texts {
+                padding: 10px 0px 0px 30px; 
+                color:white; 
+                font-size: 14.5px; 
+                font-family: 'Nunito', sans-serif; 
+                font-weight:500; 
+                opacity: 0.8;
+            }
+
+            .jumbotron-col-right {
+                background-color: none; 
+                width: 60%; 
+                display: flex; 
+                justify-content: end;
+            }
+
+            .jumbotron-col-right__img { 
+                max-width: 70%; 
+                width:100%; 
+                max-height: 70%; 
+                height: 100%;
+            }
+
+            /* _______________________________________ BOTTOM SECTION CONTENTS _____________________*/
+
+
+            .container-fluid-parent-row {
+                /*background: url('https://i.imgur.com/d09x9Eb.png') no-repeat center center;*/
+                width:100%;
+                padding: 150px 25px 270px 25px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin: 0px;
+                background-color: #fdf1fb;
+            }
+
+
+            .parent-row_contents__top__section {
+                background-color: none; 
+                max-width: 1000px;
+                margin: 0 auto; 
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:start;
+                border-radius: 14px;
+                flex-wrap: wrap;
+                margin-bottom: 200px;
+                background-color: none;
+                padding: 0;
+            }
+
+
+            .parent-row_contents__div {
+                background-color: #fdf6fc ; 
+                /*background: linear-gradient(-250deg, #3d70e9, #cac4fa, #fcd5ed, #f5b6dd, #f585e6); /*-234deg,  #d1c7f4, Important -> #e05ecf #f85fb3 */
+                max-width: 1000px;
+                margin: 0 auto; 
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:start;
+                border-radius: 14px;
+                flex-wrap: wrap;
+                transition: box-shadow 0.5s ease, transform 0.5s ease, background-color 0.3s ease; 
+                box-shadow: rgba(238, 74, 96, 0.4) 0px 25px 20px -20px;
+                border: 0.5px solid rgba(238, 74, 96, 0.15);
+                margin-bottom: 200px;
+            }
+
+            .parent-row_contents__div:hover {
+                box-shadow: rgba(238, 74, 96, 0.7) 0px 35px 30px -30px; /* Changed box-shadow on hover */
+                transform: translateY(-15px); /* Added translateY transformation on hover */
+                /*box-sizing: content-box;*/
+                border: 0.5px solid rgba(238, 74, 96, 0.5);
+            }
+
+            .inner-col-1 {
+                max-width: 66%;
+                width:100%;
+                background-color: none;
+                border-radius: 14px 0px 0px 14px;
+                padding: 40px 0px 0px 0px;
+            }
+
+            /*.inner-col-2 {
+                max-width: 34%;
+                width:100%;
+                padding: 80px 0px 80px 0px;
+                background-color: #EE4A60;
+                border-radius: 0px 14px 14px 0px; /*border-radius: 50px 14px 50px 0px; ---> Beautiful Shape
+            }*/
+
+            .top-left-block___darkpink {
+                width: 25%; 
+                height: 80px; 
+                background-color: #EE4A60; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center; 
+                border-radius: 0px 14px 114px 0px;
+            }
+
+            .top-left-block__img {
+                max-width:100%;
+                max-height: 100%;
+                opacity: 0.9;
+            }
+
+            .project-title___block {
+                width: 70%; 
+                height: 90px; 
+                padding: 0px 25px 0px 25px; 
+                display: flex; 
+                justify-content: start; 
+                align-items: center; 
+                color: rgba(24, 49, 90, 0.9); 
+                font-family: 'Lexend', sans-serif; 
+                font-weight:800; 
+                font-size: 21px;
+            }
+
+            .project-description__text {
+                width: 100%; 
+                background-color: none; 
+                color: rgba(24, 49, 90, 0.8); 
+                padding: 30px 30px 50px 30px; 
+                font-family: 'Nunito', sans-serif; 
+                font-weight:500; 
+                font-size: 14.5px;
+            }
+
+            .project-top-section_description__text {
+                width: 100%; 
+                background-color: none; 
+                color: rgba(24, 49, 90, 0.8); 
+                padding: 30px 17px 50px 17px; 
+                font-family: 'Nunito', sans-serif; 
+                font-weight:500; 
+                font-size: 14.5px;
+            }
+
+            .inner-col-2 {
+                max-width: 34%;
+                width: 100%;
+                background-color: none;
+                border-radius: 0px 14px 14px 0px;
+                /*position: relative;*/
+                margin: 0;
+                padding: 65px 0px 50px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .inner-col-2__insider {
+                max-width: 100%;
+                width: 100%;
+                padding: 35px 0px; 
+                background-color: #EE4A60;
+                border-radius: 14px 0px 0px 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                /*position: relative;*/
+            }
+
+            .inner-col-2__insider__overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding: 0px;
+                border-radius: 14px 0px 0px 14px;
+                height: 100%;
+                background-color: rgba(190, 37, 37, 0.5); 
+                z-index: 1; 
+                margin: 0;
+            }
+
+            .inner-col-2-img {
+                width: 70%; 
+                height: 50%;
+                opacity: 0.9;
+                padding: 0;
+                /*position: relative;*/
+                transition: background-color 0.3s ease;
+                margin-right: 10px;
+            }
+
+            .inner-col-2-img-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0); 
+                z-index: 1; 
+                border-radius: 14px 0px 0px 14px;
+                transition: background-color 0.3s ease;
+            }
+
+            .inner-col-2-img-overlay:hover{
+                filter: grayscale(16%) brightness(90%);
+            }
+
+
+            .project-links__parent__block {
+                display: flex; 
+                justify-content: space-between; 
+                width: 100%; 
+                margin-top: 30px; 
+            }
+
+            .project-link__block1 {
+                padding: 0px 0px 0px 30px; 
+                background-color: none; 
+                width: 50%; 
+                display: flex; 
+                justify-content: start; 
+                align-items: center;
+            }
+
+            .project-link__block2 {
+                padding: 0px 0px 0px 30px; 
+                background-color: none; 
+                width: 50%; 
+                display: flex; 
+                justify-content: start; 
+                align-items: center;
+            }
+
+            .link-texts {
+                margin:0px; 
+                font-family: 'Nunito', sans-serif; 
+                font-weight:500; 
+                font-size: 14.5px; 
+                color: rgba(24, 49, 90, 0.8);
+                transition: color 0.3s ease;
+            }
+
+            .link-texts:hover {
+                color: #EE4A60;
+            }
+
+            .link-img__size {
+                width: 25px; 
+                height: 15px; 
+                margin-left: 13px;
+            }
+
+
+
+            /* ___________________________________FOOTER CONTENTS____________________________________ */
+
+
+            footer {
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                height:54rem;
+                background-color: #18315A; 
+                padding: 10px 0px; 
+                margin-top:0px;
+                justify-content: start;
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+            }
+
+            .footer__div {
+                background-color: none;
+                max-width: 1300px;
+                margin: 0 auto; 
+                padding: 0px 25px;
+                width:100%;
+                display: flex; 
+                justify-content:start;
+                align-items:center;
+            }
+
+            .footer-col-width {
+                max-width: 50%;
+                width: 100%;
+            }
+
+
+            .footer-signature {
+                background-color: none; 
+                font-size:24px;  
+                font-family: 'Lexend', sans-serif; 
+                font-weight:700; 
+                padding-left:3px;
+            }
+
+
+            .footer-follow-me {
+                display:flex; 
+                justify-content: end; 
+                align-items:start; 
+                background-color:none; 
+                padding-right:0px;
+            }
+
+
+            .footer-follow-me img {
+                max-width: 95%;
+                width: 100%;
+                max-height: 95%;
+                height: 100%;
+            }
+
+            
+
+            /* ____________________MEDIA QUERIES FOR RESPONSIVENESS ACROSS MULTIPLE DEVICES___________________ */
+
+
+            @media only screen and (max-width: 767px) {
+                .jumbotron {
+                    height: 950px;
+                    padding-bottom: 170px;
+                    padding-top: 100px;
+                }
+                .jumbotron-middle__div {
+                    flex-direction: column; 
+                    align-items: center; 
+                    padding: 85px 0px;
+                    margin-top: 30px;
+                }
+
+                .jumbotron-middle__div img.jumbotron-img {
+                    margin-top:80px;
+                }
+
+                .jumbotron-col-left {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: none;
+                    width: 100%;
+                    margin-top: 50px;
+                }
+
+                .jumbotron-left-img__div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 100%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 60%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-col-left__title {
+                    margin-top: -20px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 20px;
+                    padding: 0;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    margin-top: 60px;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 95%;
+                    width: 100%;
+                    max-height: 95%;
+                    height: 100%;
+                }
+
+                footer {
+                    height:70rem;
+                }
+
+                .footer-follow-me {
+                    margin-top: 73px;
+                }
+
+                .footer-follow-me img {
+                    max-width:95%;
+                    height: auto;
+                }
+
+                .parent-row_contents__div {
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 25px 0px;
+                    max-width: 100%;
+                    width: 100%;
+                    border-radius: 14px;
+                    flex-wrap: wrap;
+                }
+
+                .inner-col-1 {
+                    max-width: 100%;
+                    width:100%;
+                    padding: 50px 0px;
+                }
+
+                .project-description__text {
+                    padding: 50px 30px; 
+                }
+    
+                .inner-col-2 {
+                    max-width: 100%;
+                    width:100%;
+                    padding: 30px 10px 50px 10px;
+                    border-radius: 14px;
+                    margin-top: -40px;
+                }
+
+
+                .inner-col-2__insider {
+                    border-radius: 14px;
+                    width: 80%;
+                    height: auto;
+                }
+
+                .top-left-block__img{
+                    margin-right: 12px;
+                }
+
+                .top-left-block__img {
+                    max-width: 60%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .project-links__parent__block {
+                    margin-left: 40px;
+                }
+            }
+
+
+            @media only screen and (max-width: 390px) {
+                .project-links__parent__block {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; 
+                    flex-direction: column;
+                    padding: 20px 0px;
+                }
+
+                .project-link__block2 {
+                    margin-top: 20px;
+                }
+
+                .top-left-block__img {
+                    max-width: 60%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    text-align: center;
+                }
+
+                .jumbotron-col-left {
+                    margin-top: 0px;
+                }
+
+                .jumbotron {
+                    padding: 0px;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .project-description__text {
+                    padding: 50px 30px; 
+                }
+            }
+
+            @media screen and (min-width: 768px) and (max-width: 900px) {
+
+                .jumbotron {
+                    padding: 80px 0px 70px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .col-left-big-title__div {
+                    margin-top:58px;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 30px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 21px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .inner-col-2 {
+                    padding: 30px 10px 50px 10px;
+                    margin-top: 110px;
+                }
+
+                .inner-col-2__insider {
+                    width: 80%;
+                    height: 150px;
+                    border-radius: 14px;
+                    padding:0;
+                }
+            
+                .inner-col-2-img {
+                    max-width: 80%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .project-links__parent__block {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; 
+                    flex-direction: column;
+                    padding: 20px 0px;
+                }
+
+                .project-link__block2 {
+                    margin-top: 20px;
+                }
+
+            }
+
+
+            @media only screen and (min-width: 1024px) and (max-width: 1250px) {
+                
+                .jumbotron {
+                    padding: 90px 0px 80px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .col-left-big-title__div {
+                    margin-top: 88px;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 40px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 30px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 120px;
+                }
+
+                .inner-col-2 {
+                    max-width: 34%;
+                    width:100%;
+                    padding: 50px 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    margin-top: 20px;
+                } 
+                
+                .inner-col-2-img {
+                    max-width: 80%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .inner-col-2__insider {
+                    border-radius: 14px;
+                    margin-top: 30px;
+                    max-width: 80%;
+                    width:100%;
+                    margin-right: 30px;
+                }
+            }
+
+
+            @media only screen and (min-width: 899px) and (max-width: 1020px) {
+
+                .jumbotron {
+                    padding: 90px 0px 80px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .col-left-big-title__div {
+                    margin-top: 70px;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 40px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 28px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+                
+                .inner-col-2 {
+                    max-width: 34%;
+                    width:100%;
+                    padding: 50px 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                }
+
+                .inner-col-2__insider {
+                    border-radius: 14px;
+                    margin-top: 80px;
+                    max-width: 85%;
+                    width:100%;
+                    height: auto;
+                    margin-right: 20px;
+                }
+                
+                .inner-col-2-img {
+                    max-width: 80%;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            @media only screen and (min-width: 1180px)  and (max-width: 1249px){
+                .col-left-big-title__div {
+                    margin-top: 110px;
+                }
+
+                .container-fluid-parent-row {
+                    padding-bottom: 180px;
+                }
+            }
+
+            @media only screen and (width: 896px) {
+                .col-left-big-title__div {
+                    margin-top: 78px;
+                }
+            }
+
+            @media only screen and (width: 844px) {
+                .col-left-big-title__div {
+                    margin-top: 70px;
+                }
+            }
+
+            @media only screen and (width: 820px) {
+                .col-left-big-title__div {
+                    margin-top: 63px;
+                }
+
+                .container-fluid-parent-row {
+                    padding-bottom: 150px;
+                }
+            }
+
+
+
+
+
+            @media only screen and (min-width: 650px) and (max-width: 910px) {
+
+                .jumbotron {
+                    padding: 80px 0px 70px 0px;
+                }
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-col-left__title {
+                    font-size: 30px;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 0px;
+                    padding: 0;
+                    padding-left: 25px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 85%;
+                    width: 100%;
+                    max-height: 85%;
+                    height: 100%;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 120px;
+                }
+
+                .inner-col-2 {
+                    max-width: 34%;
+                    width:100%;
+                    padding: 50px 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    margin-top: 80px;
+                }
+
+                .inner-col-2__insider {
+                    border-radius: 14px;
+                    max-width: 90%;
+                    width:100%;
+                    height: auto;
+                    margin-right: 20px;
+                }
+                
+                .inner-col-2-img {
+                    max-width: 90%;
+                    width: 100%;
+                    height: auto;
+                } 
+            }
+
+
+            @media only screen and (min-width: 540px) and (max-width: 600px) {
+                
+
+                .jumbotron-col-left {
+                    flex-direction: none;
+                    background-color: none;
+                    max-width: 50%;
+                    width: 100%;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 80%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .top-left-block__img {
+                    max-width: 40%;
+                    width: 100%;
+                    height: auto;
+                }
+
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 20px;
+                    padding: 0;
+                    padding-left: 20px;
+                    margin-left: 10px;
+                }
+
+                .jumbotron-col-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 95%;
+                    width: 100%;
+                    max-height: 90%;
+                    height: 100%;
+                }
+
+                .container-fluid-parent-row{
+                    padding-top: 140px;
+                }
+
+                .inner-col-2-img {
+                    max-width: 75%;
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .inner-col-2__insider {
+                    border-radius: 14px;
+                    max-width: 40%;
+                    width: 100%; 
+                    height: auto;
+                }
+
+                .inner-col-2 {
+                    margin-top: -80px;
+                }
+
+                .project-links__parent__block {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center; 
+                    padding: 20px 80px;
+                }
+
+            }
+
+
+            @media only screen and (min-width: 609px) and (max-width: 767px) {
+
+                .footer-follow-me {
+                    margin-top: -60px;
+                }
+
+                .inner-col-2__insider {
+                    margin-top: -12rem;
+                }
+
+                .inner-col-2-img {
+                    max-width: 70%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .project-links__parent__block {
+                    margin-right: 30px;
+                    padding-top: 20px;
+                }
+
+                .top-left-block__img {
+                    max-width: 40%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-img__left {
+                    max-width: 60%;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .jumbotron-left-col__small__texts {
+                    margin-top: 20px;
+                }
+
+                .jumbotron-col-right__img {
+                    max-width: 55%;
+                    width: 100%;
+                    max-height: 350px;
+                    height: 100%;
+                    margin-top: -2rem;
+                }
+
+                .top-left-block___darkpink {
+                    max-width: 25%;
+                    width: 100%;
+                    max-height: 95px;
+                    height: 100%;
+                }
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+
+        <div class="jumbotron" style="background-color: none; margin-bottom: 0px;">
+            <div class="jumbotron-middle__div">
+                <!-- Left Column -->
+                <div class="col-sm-4 jumbotron-col-left">
+                    <div class="jumbotron-left-img__div">
+                        <img src="https://i.imgur.com/70ru5u2.png" class="jumbotron-img__left">
+                        <!-- https://i.imgur.com/HDDqGGl.png -->
+                    </div>
+                    <div class="col-left-big-title__div">
+                        <div class="jumbotron-col-left__title">
+                            Projects
+                        </div>
+                        <div class="jumbotron-left-col__hr">
+                        </div>
+                    </div>
+                    <div class="jumbotron-left-col__small__texts">
+                        Learning and Building Knowledge
+                    </div>
+                </div>
+                <!-- Right column -->
+                <div class="col-sm-8 jumbotron-col-right">
+                    <img src="https://i.imgur.com/6I4e0Ze.png" class="jumbotron-col-right__img">
+                </div>
+            </div>
+            <!-- <div style="opacity: 0.8; border-bottom: 1px solid white;" class="jumbotron-middle__div"></div> -->
+        </div>
+
+
+
+        <!-- _________________________ START THE BOTTOM SECTION CONTENTS FROM HERE  _________________-->
+
+
+        <div class="container-fluid-parent-row ">
+
+            <!-- _______________________________ INTRODUCTION ______________________________ -->
+
+            <div class="parent-row_contents__top__section">
+                <div class="project-top-section_description__text">
+                    The following listed projects are arranged; from my latest works to earliest works. Each project provided me with a chance to learn,  
+                    grow, and enhance my skills. From analyzing data and building dashboards in traditional BI tools to building analytic apps, 
+                    each one showcases my passion for turning raw data into data-driven results. 
+                    Please note that while some projects are available on Github, I am actively working on adding the remaining ones in the upcoming months. 
+                    Additionally, I am currently working on the first page of this portfolio along with developing an analytic app in which I will shift 
+                    <a href="https://sites.google.com/view/satyndrakgautam/analytic-apps/multi-page-app" style="text-decoration: none; color: #EE4A60;">this app </a>
+                    contents for a better user experience, ensuring responsiveness across various devices. 
+
+                </div>
+                <div style="display: flex; margin-top: 100px; width: 100%; justify-content: center; align-items: center;">
+                    <div style="width: 33.3%; height: 5px; background-color: #18315A"></div>
+                    <div style="width: 33.3%; height: 5px; background-color: #dedee0"></div>
+                    <div style="width: 33.3%; height: 5px; background-color: #EE4A60"></div>
+                </div>
+
+                <div style="font-family: 'Lexend', sans-serif; font-weight:400; font-size: 30px; opacity: 0.30; width: 100%; display: flex; justify-content: center; align-items: center; padding: 130px 0px 0px 0px; color: #18315A">
+                    Ongoing Projects 
+                </div>
+            </div>
+
+
+
+            <!-- _______________________________ ONGOING PROJECT 01____________________________________ -->
+
+            <div class="parent-row_contents__div" style="margin-top: -50px;">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink"> 
+                            <img src="https://i.imgur.com/JJpzQwu.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block" >
+                            My Portfolio Makeover V2
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 80px;">
+                        I initially used the predefined layout provided by Google Site, meaning that I used the existing base layout/foundation 
+                        on which my portfolio was originally built. So, when I initially started embedding these HTML codes in the first page of the 
+                        portfolio, I encountered challenges with the predefined blocks which prevented the responsiveness across many devices. 
+                        However, despite these challenges, my curiosity drove me to find a solution.
+                        <br><br>
+                        Now, my plan is underway to remove the predefined layout and embed a fresh and new page for the first page of this portfolio.
+                        
+                        <br><br>
+
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/TGTdSjq.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.google.com/" target="_blank" style="display: flex; text-decoration: none; display: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/my-portfolio-makeover-adventure" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+            <!-- _______________________________ ONGOING PROJECT 02____________________________________ -->
+
+            <div class="parent-row_contents__div" >
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/w2UdjOY.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Developing Analytical App for Better UX & Responsiveness
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 120px;">
+                        This project is currently under development with the aim of creating an app that offers enhanced user experience and 
+                        responsiveness across various devices. The primary goal is to migrate contents from an 
+                        <a href="https://sites.google.com/view/satyndrakgautam/analytic-apps/multi-page-app"  style="text-decoration: none; color: #EE4A60; font-weight: bold;">existing app </a>
+                        while improving its responsiveness. The original app was developed using Plotly Dash, primarily for full-screen desktop use, which 
+                        limited its responsiveness across different devices. Recognizing that the majority of web traffic comes from mobile 
+                        devices, comprising approximately 60-70% of traffic, the focus now is on designing a seamless layout that ensures responsiveness. 
+                        The plan is also to maintain the structure of the original app as much as possible in the new version.
+                        <br>
+
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/G6ebUEM.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.google.com/" target="_blank" style="display: flex; text-decoration: none; pointer-events: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/my-portfolio-makeover-adventure" target="_blank" style="display: flex; text-decoration: none; pointer-events: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- ________________________Divider___________________________ -->
+
+            <div class="parent-row_contents__top__section" style="max-width: 100%; margin-top: -50px;">
+                <div style="display: flex; margin-top: 100px; width: 100%; justify-content: center; align-items: center;">
+                    <div style="width: 100%; height: 1px; background-color:rgb(248, 202, 202);"></div>
+                </div>
+            </div>
+
+
+
+
+            <!-- _______________________________ PROJECT 01 ___________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink"> 
+                            <img src="https://i.imgur.com/JJpzQwu.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block" >
+                            My Portfolio Makeover Adventure V1
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 80px;">
+                        The objective of this project was to reimagine and revamp my portfolio while honing my HTML and CSS skills. Having previously utilized HTML, Bootstrap, 
+                        and CSS in developing my first app with Plotly Dash in Python, I aimed to deepen my understanding in a more traditional context. 
+                        I started by embedding HTML code into the predefined layout of the first page of <span style="color: #EE4A60; font-weight: bold;" > this portfolio </span>using Google Site's 'Iframe' functionality. 
+                        Through persistent exploration, I gained confidence in writing and utilizing this code.
+
+                        After many iterations and dedicated hours, I achieved proficiency in these tools, ensuring responsiveness across all devices. 
+                        This project not only boosted my confidence but also fulfilled my goal of equipping myself with essential skills for 
+                        building responsive websites and applications. For more details, please use the link provided. 
+                        
+                        <br>
+
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/TGTdSjq.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.google.com/" target="_blank" style="display: flex; text-decoration: none; display: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/my-portfolio-makeover-adventure" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- _______________________________PROJECT 02____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/1jqBrgA.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Love Building Data Apps
+                        </div>
+                    </div>
+                    <div class="project-description__text">
+                        This project wasn't just about creating an app; it was about pouring my heart and soul into something I love.
+                        After finishing my certification program, I initiated this project and started constructing this example app using Plotly Dash in Python, with a clear objective 
+                        to design an analytical app with multiple pages featuring various functionalities such as dedicated space filters, tabs, inputs, 
+                        checkboxes and more. Each functionality is defined with a clear objective to provide a better user experience throughout the app 
+                        navigation. One of the most important goals was to centralize various aspects of reporting into one place, ensuring operational 
+                        efficiency, accessibility, and usability in mind with ease of seamless navigation. Within this app, I built exemplary dashboard 
+                        which is designed to provide detailed information and valuable insights, highlighting key metrics, trends, patterns, changes into 
+                        the dynamic landscape of American demographics across US counties from 2010 to 2022, enabling end-users to gain valuable insights 
+                        to support informed decision-making.
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/3ndcwjv.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://sites.google.com/view/satyndrakgautam/analytic-apps/multi-page-app" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/plotly-dash-app" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+            <!-- _______________________________PROJECT 03____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink"> 
+                            <img src="https://i.imgur.com/0tZy26c.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block" >
+                            Embrace Continuous Learning and Growth
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        In today's modern world, data is oxygen to businesses and plays a crucial role in informed decision-making. 
+                        Recognizing the significance of data analytics, I enrolled in the IBM Data Science Program with the aim of 
+                        enhancing my skills in this field, giving a new dimension to my skillset. My goal was to explore and learn 
+                        about the potential capabilities of Data Science, incorporating the applications of data science methodologies, 
+                        techniques, advanced tools, and technologies. It provided me a chance to look at data analytics with a 
+                        completely different perspective, guiding me to the immense possibilities of data analytics in a way I 
+                        had never imagined before. From building high-quality reports/dashboards into traditional BI tools to 
+                        building analytics apps and predictive models to provide valuable insights to end-users to make informed 
+                        decisions has been transformative journey, leading me to continuous learning and growth.  
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/csELky9.png" alt="html" class="inner-col-2-img" style="margin-right: 20px;">
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.credly.com/users/satyndra-gautam/badges" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/IBM-Data-Science-Cert" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+            <!-- _______________________________PROJECT 04____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/7kmn1zy.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Google Capstone Project 01
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        The goal of this project was to provide answers to a set of business questions and to study secondary consumer 
+                        data to identify growth opportunities and gain insights into smart device usage for Bellabeat, a small, 
+                        high-tech manufacturer company that provides health-focused products for women. Bellabeat aims to establish 
+                        an effective footprint in the global smart device market. Specifically, the project focuses on aligning 
+                        findings with business objectives and presenting them to the Bellabeat marketing executive team, along with 
+                        high-level recommendations. The project also aims to identify consumers using non-Bellabeat smart devices for 
+                        benchmarking purposes, allowing the company to compare strategies and features. The final deliverable will 
+                        recommend cost-effective strategies based on the analysis of features, cost, and usage of identified smart devices.
+
+                        <br>
+                        <br>
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/IN3nUhc.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.kaggle.com/code/satyndragautam/bellabeat-data-analytics" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/bellabeat-casestudy" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+            <!-- _______________________________PROJECT 05____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink"> 
+                            <img src="https://i.imgur.com/7kmn1zy.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Google Capstone Project 02
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        In this project, a set of business tasks are to be completed for Cyclistic, a fictional bike-share company in Chicago, 
+                        aimed at maximizing annual memberships. With 5824 bikes across 692 stations, Cyclistic offers flexible pricing plans 
+                        targeting the conversion of casual riders into annual members for future growth. The goal is to analyze rider usage patterns, 
+                        identify reasons for casual riders to opt for annual memberships, and explore digital media strategies to influence 
+                        their decisions. By leveraging historical data, the project aims to align marketing strategies with the objective of 
+                        maximizing annual memberships and ensuring Cyclistic's success in the competitive bike-share market. Through 
+                        comprehensive data analysis and strategic marketing initiatives, the project seeks to capitalize on Cyclistic's 
+                        existing customer base while attracting new riders, ultimately driving long-term sustainability and profitability for the company.
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/dAJQriu.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.kaggle.com/code/satyndragautam/cyclistic-data-analytics" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/cyclistic-bike-share" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+            <!-- _______________________________PROJECT 06____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/7kmn1zy.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Simple Linear Regression Models Using R
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        This project focused on utilizing the R language to develop a straightforward predictive model using Linear Regression. 
+                        The main objective was to gain insights into the functionality of Linear Regression Models and to efficiently utilize R 
+                        for this purpose, particularly exploring Simple Linear Regression and Multiple Linear Regression Models. The emphasis 
+                        throughout the project was on acquiring a fundamental understanding of these models. Additionally, the project aimed to 
+                        utilize publicly available data and build these models based on it. Moreover, the project also aimed to better understand 
+                        how predictive models powerful and flexible tools for can be making decisions.
+
+                        <br><br><br><br>
+
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/N2uUEA3.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.kaggle.com/code/satyndragautam/linear-regression-models" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/Linear-Regression-Models" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+            <!-- _______________________________PROJECT 07____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" > 
+                            <img src="https://i.imgur.com/Z4qb4te.png" alt="html-project" class="top-left-block__img" style="margin-right: 10px;">
+                        </div>
+                        <div class="project-title___block">
+                            Youth Tobacco Use in USA
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        After finishing my Google Data Analytics Professional Certificate, I wanted to brush up my skills in building reports using Tableau. 
+                        So, my goal was to utilize public dataset and explore it and represent valuable insights through a simple dashboard in Tableau. 
+                        The YTS was developed to provide states with comprehensive data on both middle school and high school students regarding tobacco 
+                        use, exposure to environmental tobacco smoke, smoking cessation, school curriculum, minors' ability to purchase or otherwise 
+                        obtain tobacco products, knowledge, and attitudes about tobacco, and familiarity with pro-tobacco and anti-tobacco media messages. 
+                        The YTS uses a two-stage cluster sample design to produce representative samples of students in middle schools (grades 6 to 8) and 
+                        high schools (grades 9 to 12). Tobacco topics included are cigarette smoking prevalence, cigarette smoking frequency, 
+                        smokeless tobacco products prevalence, and quit attempts. 
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" >
+                        <img src="https://i.imgur.com/kL6fOPC.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://sites.google.com/view/satyndrakgautam/projects/youth-tobacco-use" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        More details
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://public.tableau.com/app/profile/satyndra.kumar.gautam/viz/Tableau_Project_1-Copy_new/YouthTobaccoUseSurvey" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        View Report
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+
+
+            <!-- _______________________________PROJECT 08____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/wXjWTLL.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Improved Data Analysis Proficiency Through Google Certification
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        I often find motivation in learning new skills and refining existing ones. Enrolling in this certification was 
+                        more of a personal endeavor than a project. Throughout the program, I not only strengthened my data skills but 
+                        also discovered many ways to enhance my data analysis abilities. The certificate program emphasizes real-world 
+                        applications, providing practical experience in solving industry-specific problems using data analytics techniques. 
+                        I utilized multiple tools such as R, SQL, Tableau, and more, completing various hands-on practices successfully. 
+                        Upon completing this certification, I gained a strong understanding of data analytics and proficiency in 
+                        utilizing data analysis tools to transform raw data into actionable insights, supporting informed decision-making. 
+                        Acquiring this certification elevated my skills to a new dimension, ensuring I can provide high-quality reports 
+                        and dashboards with confidence
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/x6J3Obq.png" alt="html" class="inner-col-2-img" style="margin-right: 30px;">
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.credly.com/users/satyndra-gautam/badges" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Verify
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/cyclistic-bike-share" target="_blank" style="display: flex; text-decoration: none; pointer-events: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+            
+
+
+            <!-- _______________________________PROJECT 09____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" > 
+                            <img src="https://i.imgur.com/ghDOscX.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Snapchat Ads Target Report 
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 90px;">
+                        This project was sort of dedicated to have some fun with tableau back in days, specifically using some advanced functionalities. Snapchat, a social networking app, 
+                        has been ridiculously trending on a daily basis for many years. This project was based on Snapchat ads that focused on 
+                        targeting individuals of different ages, in different countries, and in different demographics. It also demonstrates 
+                        how much and how frequently organizations are spending money on elections by each country. It explains why people 
+                        should be aware of biased political ads,  and what age group of people is being targeted more during the election campaign. 
+                        Since digitalization has a greater impact on elections, people or businesses, companies are using personal data to target 
+                        people for marketing, so a careful recommendation is made from the detailed analysis. 
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/Igv4pFc.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.google.com/" target="_blank" style="display: flex; text-decoration: none; display: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://public.tableau.com/app/profile/satyndra.kumar.gautam/viz/MultipleKPIsTracking/Dashboard1" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- _______________________________PROJECT 10____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/N0fB44w.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Rediscovered the important aspects of Business Analysis 
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 75px;">
+                        After completing the other three analytics certifications, I wanted to further add more depth into my 
+                        analytical abilities and align my prior business analysis skills experience with data analysis skills. 
+                        So, I decided to rediscover the important aspects of it and find ways to boost my business analysis skills. 
+                        That's when I took up the ECBA™ course. This wasn't just about professional development – it was about 
+                        laying down a stronger foundation with more knowledge into utilizing business methodologies, tools, 
+                        and techniques efficiently. Throughout the course, I actively engaged in a series of hands-on projects 
+                        that provided invaluable practical experience and equipped me with the essential skills necessary for 
+                        business analysis. It not only improved my analytical abilities but also instilled in me a deeper 
+                        understanding of how businesses work and where I can use both my business analysis skills and data 
+                        analysis skills together. 
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/nrZKyUo.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.google.com/" target="_blank" style="display: flex; text-decoration: none; display: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://badges.iiba.org/616d2a4d-add5-4247-b004-8c9dd59807c4" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Verify
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- _______________________________PROJECT 11____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" > 
+                            <img src="https://i.imgur.com/wfpSTTM.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Developed Core Skills in Accounting Analytics 
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 70px;">
+                        As my curiosity leads me to learn something new, I regularly crave ways to educate and improve myself. 
+                        While still enjoying parenting with my first-born, I made sure to add new skills and improve existing ones. 
+                        So, I decided to take on a new challenge and enroll in a certification program in accounting analytics, 
+                        designed to provide fundamental knowledge in Accounting. Throughout this project, I was actively engaged in 
+                        learning from basic to core accounting structures using hands-on-exercises and projects, gaining proficiency in various areas such as Financial 
+                        Statements Analysis, Ratio Analysis, Accounting-Based Valuation, Earnings Management, Fraud Prediction Models 
+                        and much more. This endeavor helped me gain a deep understanding about accounting and 
+                        also guided me on how to apply this skill in real-life scenarios with real-life datasets, for instance 
+                        executed a concrete plan to tracking down our expenses and eliminating them resulted in a better savings for our family. 
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/3nPLRSL.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/6G9953BNZ542" target="_blank" style="display: flex; text-decoration: none; ">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Verify
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/accounting-analytics" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- _______________________________PROJECT 12____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/pVvaQzU.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Regained and Refined My Skills in Operations Analytics
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 60px;">
+                        With prior experience and a background in completing multiple projects in this field, 
+                        I wanted to stay updated and connected with my existing operations analytics skills while awaiting a work permit 
+                        after moving to the US. So, I undertook this project to regain and polish my analytical skill through this certification 
+                        program, which helped me improve my abilities in applying various frameworks and ideas to real-world business 
+                        challenges and transforming raw data into actionable insights for making profitable decisions to support operational 
+                        efficiency. The primary focus was to develop a deep understanding and knowledge and apply efficient methodologies 
+                        and techniques to build predictive models to choose the best course of action in the face of risk while highlighting 
+                        the future uncertainties. This course also helped me enhance my skills in different types of forecasting methods, 
+                        the newsvendor problem, the regression analysis, random demand variability, operation research, optimization, 
+                        seasonality, and much more.  
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/TZImC33.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/M7YG673QBQNV" target="_blank" style="display: flex; text-decoration: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Verify
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/operations-analytics" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- _______________________________PROJECT 13____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" > 
+                            <img src="https://i.imgur.com/8w90GCa.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Learned Fundamental Knowledge in Customer Analytics
+                        </div>
+                    </div>
+                    <div class="project-description__text" style="padding-bottom: 55px;">
+                        I began this project while awaiting the completion of paperwork for my US work permit alongside enjoying becoming a father. 
+                        I wanted to use this time to expand my skills and explore a new area of expertise. During this program, I developed a deep 
+                        understanding into the basics of customer experience and learned how to use different methods such as descriptive analytics (past buying behaviors), 
+                        predictive analytics (predict future ones), prescriptive analytics (prescribe new ways to influence future purchasing decisions) 
+                        to tackle real-world business challenges and and make sense of raw data to 
+                        improve customer experience efficiently. Additionally, this project provided detailed information on how companies 
+                        like Amazon, Google, and Starbucks use analytics to make informed decisions. This course helped me understand the 
+                        history and best practices of customer analytics and how to apply them in real-world scenarios. Overall, this project 
+                        was aimed to gain introductory knowledge into customer analytics and understand the basics of it
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider">
+                        <img src="https://i.imgur.com/gLN9Z3v.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.coursera.org/account/accomplishments/verify/JVZBNQ7YYFKU" target="_blank" style="display: flex; text-decoration: none; ">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Verify
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://github.com/satyndragautam/customer-analytics" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Github 
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+
+            <!-- _______________________________PROJECT 14____________________________________ -->
+
+            <div class="parent-row_contents__div">
+                <div class="inner-col-1">
+                    <div style="display: flex; width: 100%;"> 
+                        <div class="top-left-block___darkpink" style="background-color: #18315A"> 
+                            <img src="https://i.imgur.com/Z4qb4te.png" alt="html-project" class="top-left-block__img">
+                        </div>
+                        <div class="project-title___block">
+                            Other Tableau Reports
+                        </div>
+                    </div>
+                    <div class="project-description__text">
+                        Looking back at my past projects, I recall creating a few Tableau dashboards, although they are quite old now. 
+                        I am not quite sure if they provide any value as technologies and tools evolve each day. However, while they 
+                        helped me learn about Tableau’s functionalities and utilize them, significantly helped me stay updated with 
+                        its features, I am attaching this section for those little projects to reflect on how my journey from building 
+                        basic reports to developing advanced analytic apps has been transformative and these projects certainly have 
+                        played a crucial role in shaping my understanding, knowledge, and my visualization skills. 
+                        
+                        <br><br><br><br><br><br>
+                        
+                    </div>
+                </div>
+                <div class="inner-col-2" >
+                    <div class="inner-col-2__insider" style="background-color: #18315A">
+                        <img src="https://i.imgur.com/pixDnRV.png" alt="html" class="inner-col-2-img" >
+                        <!-- <div class="inner-col-2-img-overlay"></div> -->
+                    </div>
+                    <div class="project-links__parent__block">
+                        <div class="project-link__block1">
+                            <a href="https://www.google.com/" target="_blank" style="display: flex; text-decoration: none; display: none;">
+                                <!-- Disable it when this link is not required, by using display: none;  -->
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-link__block2">
+                            <a href="https://public.tableau.com/app/profile/satyndra.kumar.gautam/vizzes" target="_blank" style="display: flex; text-decoration: none;">
+                                <div>
+                                    <p class="link-texts">
+                                        Explore
+                                    </p>
+                                </div>
+                                <div>
+                                    <img src="https://i.imgur.com/Vc3QfJ7.png" alt="link-arrow" class="link-img__size">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="inner-col-2__insider__overlay"></div>  -->  <!-- Use it whenever is required --> 
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+        <!-- ________________________________________ Footer Section | Contents _______________________________________________ -->
+        <footer>
+            <div class="footer__div">
+                <div style="width: 100%; padding: 215px 0px 0px 0px;">
+                    <div style="border-bottom: 1px solid #EE4A60;">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__div">
+                <div style="width: 100%; padding: 45px 0px 0px 25px;">
+                    <div style="direction: rtl; font-family: 'Nunito', sans-serif; font-weight:400; font-size: 18.5px; color: white;">
+                        Follow me
+                    </div>
+                </div>
+            </div>
+            <div class="footer__div">
+                <div style="width: 100%; padding: 52px 0px 10px 0px;">
+                    <div class="col-sm-6 footer-signature">
+                        <span style="color: white; padding-left: 0px; background-color: none">
+                            Satyndra
+                        </span><br>
+                        <span style="color: #EE4A60; padding-left: 0px;">
+                            Gautam
+                        </span>
+                    </div>
+                    <div class="col-sm-6 footer-follow-me">
+                        <div style="padding: 0px 13px;">
+                            <a href="https://www.linkedin.com/in/satyndra-gautam-79315552/" target="_blank" >
+                                <img src="https://i.imgur.com/VI6YWzk.png" alt="LinkedIn" >
+                            </a>
+                        </div>
+                        <div style="padding: 0px 13px;">
+                            <a href="https://github.com/satyndragautam/" target="_blank" >
+                                <img src="https://i.imgur.com/t8R6xg2.png" alt="Github"  >
+                            </a>
+                        </div>
+                        <div style="padding: 0px 13px;">
+                            <a href="https://www.credly.com/users/satyndra-gautam/badges" target="_blank" >
+                                <img src="https://i.imgur.com/nMm7PIq.png" alt="Credly"  >
+                            </a>
+                        </div>
+                        <div style="padding: 0px 0px 0px 13px;">
+                            <a href="https://www.kaggle.com/satyndragautam/" target="_blank" >
+                                <img src="https://i.imgur.com/vDI4030.png" alt="Kaggle" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+
+    </body>
+</html>
