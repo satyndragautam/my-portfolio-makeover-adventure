@@ -53,7 +53,7 @@ My next plan is to remove the predefined layout and embed a fresh and new page f
 * HTML
 * CSS
 * Photoshop
-* JavaScript 
+* JavaScript (little bit usage) 
 
 <br><br><br>
 ## 📝 Resources Used: 
