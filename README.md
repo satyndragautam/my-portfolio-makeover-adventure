@@ -52,8 +52,8 @@ My next plan is to remove the predefined layout and embed a fresh and new page f
 ## 🧰 Tools Used : 
 * HTML
 * CSS
-* JavaScript 
 * Photoshop
+* JavaScript 
 
 <br><br><br>
 ## 📝 Resources Used: 
