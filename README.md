@@ -14,9 +14,9 @@ along with utilizing CSS in a more traditional way to enhance my proficiency in 
 ## 🚀 Portfolio Development:
 Since I’ve previously used HTML, Bootstrap, and CSS during the development of my first app using the Plotly Dash library in Python, it wasn’t much of a hassle. 
 However, learning about something new in its original form is what brings excitement to me, and it also helps me gain proficiency in it. So, in order to get 
-familiarized with HTML and CSS in a more traditional and sophisticated manner, I initialized this project with a simple and first approach to simply utilize 
-the functionality Iframe provided by Google Site and embed HTML codes in the predefined layout/blocks of the first page of this portfolio. Along the way 
-of this development journey, I might be wrong, but I figured out that embedding HTML code with the anticipated results might not work with predefined/existing 
+familiarized with HTML and CSS in a more traditional manner, I initialized this project with a simple and first approach to simply utilize 
+the functionality `Iframe` provided by Google Site and embed HTML codes in the predefined layout/blocks of the first page of this portfolio. Along the way 
+of this development journey, I might be wrong, but I figured out that embedding HTML code with the anticipated results might not work with predefined
 blocks or layout for all devices. So, the more I dug deeper into it, the more confident I became in writing and executing this code. 
 Eventually, I started writing complete codes for the whole page while continuously ensuring and defining the responsiveness across various devices throughout the development.
 
