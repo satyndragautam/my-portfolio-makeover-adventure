@@ -28,7 +28,7 @@ fulfilled as an individual equipped with the necessary tools, enabling me to bui
 <br><br><br>
 
 #### Update: 
-Modified and developed the new look of this portfolio. I will soon publish it. 
+Modified and developed the new look of this portfolio. I will soon publish and make it go live.  
 
 ## 🛠️ Challenges Faced:
 I initially used the predefined layout provided by Google Site, meaning that I used the existing base layout/foundation on which my portfolio was originally built. 
