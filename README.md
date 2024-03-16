@@ -5,7 +5,7 @@
 The objective of this project was not only to reimagine and renovate my portfolio but also to provide myself with an opportunity to write, execute, and run HTML codes 
 along with utilizing CSS in a more traditional way to enhance my proficiency in them. I simply loved exploring and learning about it all, and it was a fun and adventurous project.
 
-📁 I've added HTML files above for your kind review, and you can use them if interested.<br>
+📁 I've added some of HTML docs above, which were previsouly used in portfolio V1. Feel free to review them and you can use them if interested.<br>
 📷 You can have a glimpse of how each iteration of graphic design helped me come with a finalized appealing look of my portfolio. Feel free to [access images](https://imgur.com/a/oVnPeqP) 🔗 and have a look if interested. 
 <br><br>
 
