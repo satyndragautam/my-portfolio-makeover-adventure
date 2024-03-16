@@ -61,3 +61,4 @@ My next plan is to remove the predefined layout and embed a fresh, new, and whol
 * [w3schools.com](https://www.w3schools.com/)
 * [ChatGPT](https://chat.openai.com/)
 * [Freepik](https://www.freepik.com/)
+* [Codepen](https://codepen.io/)
