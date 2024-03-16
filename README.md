@@ -35,7 +35,7 @@ So, for a better user experience, I started writing and executing codes for a wh
 ## 🎉 Final Outcome 🎉: 
 <br><br>
 
-![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/new_vs_old.png)
+![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/updated_img.png)
 
 <br>
 
