@@ -49,7 +49,7 @@ So, for a better user experience, I started writing and executing codes for a wh
 <br><br>
 
 ## 🎯 Next Plans : 
-My next plan is to remove the predefined layout and embed a fresh, new, and whole page for the first page of this portfolio. 
+My next plan is to add blogging page in my portfolio.
 <br><br>
 
 ## 🧰 Tools Used : 
