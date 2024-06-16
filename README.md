@@ -49,7 +49,7 @@ So, for a better user experience, I started writing and executing codes for a wh
 <br><br>
 
 ## 🎯 Next Plans : 
-My next plan is to add blogging page in my portfolio.
+My next plan is to keep adding contents into my blog pages, so we all can learn from each other. 
 <br><br>
 
 ## 🧰 Tools Used : 
