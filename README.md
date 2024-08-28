@@ -9,7 +9,7 @@ along with utilizing CSS in a more traditional way to enhance my proficiency in 
 📷 You can have a glimpse of how each iteration of graphic designs helped me come with a finalized appealing look of my portfolio. Feel free to [access images](https://imgur.com/a/oVnPeqP) 🔗 and have a look if interested. 
 <br><br>
 
-##### 💡 Skill Enhancement:
+#### 💡 Skill Enhancement:
 * Obtained proficiency in utilizing HTML, Bootstrap, and CSS more efficiently and effectively.
 * Built more knowledge and gained insights into them along with accelerating my confidence in building responsive webs and analytic apps.
 <br><br><br>
