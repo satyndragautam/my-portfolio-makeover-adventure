@@ -73,7 +73,7 @@ development, or showcasing interactive visualizations, this blogging page reflec
 Initially, this project started from a desire to remove clutters from the portfolio and enhance its visibility. Ultimately, this turned out to be a 
 comprehensive project and led me to so many ideas to redesign several components of the portfolio. This included re-designing each page, implementing 
 interactive UI components, cleaning codes, dedicating individual pages for projects, and advancing my skills in web technologies. Still documenting.
-
+<br><br><br>
 
 ![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/updated_img.png)
 <br><br><br>
