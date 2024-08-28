@@ -82,7 +82,7 @@ comprehensive project and led me to so many ideas to redesign several components
 interactive UI components, cleaning codes, dedicating individual pages for projects, and advancing my skills in web technologies. Still documenting.
 <br><br><br>
 ![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/v5_hom.png)
-<br><br><br>
+<br><br><br><br><br><br>
 ![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/v5_mislncs_pages.png)
 <br><br><br><br><br>
 
