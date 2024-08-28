@@ -47,9 +47,33 @@ robust solutions in the portfolio.
 ## 🎉 Final Outcome 🎉: 
 <br><br>
 
-### VERSION 01 : <span style="font-weight: thin;">Started executing HTML project with basic layouts and implemented them in Google Site using Iframe.</span>
-### VERSION 02 : Addressed responsiveness of the embded elements and re-designed the whole pages with responsive elements 
-### VERSION 03 : Adjusted the layout, typography, and colors of each phase. Addressed the space of web pages and designed 
+### Development Progress:
+<br><br>
+#### VERSION 01 : 
+The objective of this project was to re-imagine and revamp my portfolio while honing my HTML and CSS skills. Having previously utilized HTML, Bootstrap, and 
+CSS while developing my first app with Plotly Dash in Python, I aimed to deepen my understanding in a more traditional context. I started by compiling HTML 
+documents and embedding them throughout my portfolio using Google Site's 'Iframe' functionality. Find more [details](https://sites.google.com/view/gautamsatyndra/projects/portfolio-makeover-v1).
+<br><br>
+#### VERSION 02 : 
+In this version, the goal was to highlight the key elements, re-design them with responsiveness, find colors balance and typography, and re-embed HTML codes. 
+The principle of Grid system, Flexbox, and Bootstrap were incorporated to create dynamic and responsive layouts along with the use of CSS animations and 
+transitions providing visually appealing look for most of the elements throughout this portfolio. Find more [details](https://sites.google.com/view/gautamsatyndra/projects/web-dev-responsive-design-v2).
+<br><br>
+#### VERSION 03 : 
+The primary objective was to recreate the Projects Page and optimize space efficiency. This led me to create multiple tabs, with each tab containing 
+respective projects. Additionally, I aimed to add dynamic blocks with sufficient space to provide detailed information about each project, triggered 
+by corresponding button. In simple terms, my goal was to achieve 'less is more' with responsive layouts across various devices. Find more [details](https://sites.google.com/view/gautamsatyndra/projects/optimize-space-efficiency-v3).
+<br><br>
+#### VERSION 04 : 
+In this version, I added a blogging page including blog posts and their individual pages. This page aimed at sharing my learning, data-driven insights, 
+stories, and updates about tools and technologies as they evolve every day. Whether it's exploring Python libraries, gaining insights into software 
+development, or showcasing interactive visualizations, this blogging page reflects on my commitment to Continuous Learning and Growth. Find more [details](https://sites.google.com/view/gautamsatyndra/projects/develop-blogging-pages-v4).
+<br><br>
+#### VERSION 05 : 
+Initially, this project started from a desire to remove clutters from the portfolio and enhance its visibility. Ultimately, this turned out to be a 
+comprehensive project and led me to so many ideas to redesign several components of the portfolio. This included re-designing each page, implementing 
+interactive UI components, cleaning codes, dedicating individual pages for projects, and advancing my skills in web technologies. Still documenting.
+
 
 ![New vs Old](https://github.com/satyndragautam/my-portfolio-makeover-adventure/blob/main/images/updated_img.png)
 <br><br><br>
@@ -58,9 +82,6 @@ robust solutions in the portfolio.
 [@Satyndra Gautam](https://sites.google.com/view/gautamsatyndra/about-me)
 <br><br>
 
-## 🎯 Next Plans : 
-My next plan is to keep adding contents into my blog pages, so we all can learn from each other. 
-<br><br>
 
 ## 🧰 Tools Used : 
 * HTML
